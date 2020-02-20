@@ -3,7 +3,7 @@ public class HW19Feb {
 
 	public static void main(String[] args) {
 		int n1=10,n2=20;
-		int c,d;
+		int c,d,e;
 		c= n1+n2;
 	// This Syntax is used to declare the String
 		String Sdec = "Java";
@@ -32,6 +32,8 @@ public class HW19Feb {
 	     System.out.println (n1<= n2);
 	// The below syntax is for boolean true
 	     System.out.println (n1>= n2);
+	
+	     
 	}
 
 }
