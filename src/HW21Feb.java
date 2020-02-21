@@ -2,7 +2,8 @@
 public class HW21Feb {
 
 	public static void main(String[] args) {
-		int n=1;
+		// Classwork on the Swtich condition 
+		int n=2;
 		switch (n){
 		case 1 :
 		System.out.println("Print the 1st Case");
