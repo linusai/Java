@@ -1,6 +1,6 @@
 
 public class StringsValidation25FebCW {
-
+//String in immutable 
 	public static void main(String[] args) {
 		String S= "String";
 		String S1= "String";
