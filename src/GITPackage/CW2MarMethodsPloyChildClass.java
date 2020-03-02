@@ -21,7 +21,7 @@ public class CW2MarMethodsPloyChildClass extends CW2MarMethodsPloy {
 	public void mestat3() {
 		
 		System.out.println("Enter the Miles:");
-		Scanner dataentry = new Scanner (System.in);
+		Scanner dataentry = new Scanner (System.in); // Syntax to use and call the user input
 		double miles =dataentry.nextDouble();
 		double cinctofoot = inch * foot;
 		System.out.println("Print the Child Class Conversion inches to foot :" +cinctofoot );
