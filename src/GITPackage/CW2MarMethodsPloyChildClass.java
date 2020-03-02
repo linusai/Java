@@ -1,7 +1,9 @@
 package GITPackage;
 
+import java.util.Scanner;
+
 public class CW2MarMethodsPloyChildClass extends CW2MarMethodsPloy {
-	double miles =2;
+	
 	double kms = 1.60934;
 	double gal =35;
 	double lts = 3.784;
@@ -17,8 +19,13 @@ public class CW2MarMethodsPloyChildClass extends CW2MarMethodsPloy {
 		System.out.println("Print the Child Class Conversion gallon to litres :" +cgaltolts);
 	}
 	public void mestat3() {
+		
+		System.out.println("Enter the Miles:");
+		Scanner dataentry = new Scanner (System.in);
+		double miles =dataentry.nextDouble();
 		double cinctofoot = inch * foot;
-		System.out.println("Print the Child Class Conversion inches to foot :" +cinctofoot);
+		System.out.println("Print the Child Class Conversion inches to foot :" +cinctofoot );
+		System.out.println("Print the Child Class miles :" +miles );
 	}
 
 	public static void main (String[] args) { 
@@ -28,11 +35,9 @@ public class CW2MarMethodsPloyChildClass extends CW2MarMethodsPloy {
 		CW2MarMethodsPloyChildClass cc = new CW2MarMethodsPloyChildClass ();
 		cc.mestat3();
 		
-		CW2MarMethodsPloy parentchild = new CW2MarMethodsPloyChildClass ();
-		parentchild.mestat1();
-		
-		
-		
+		CW2MarMethodsPloy parentchild = new CW2MarMethodsPloyChildClass (); // This syntax will call the child class method 
+		parentchild.mestat1(); // This syntax will call only the Child class methods and not the parent class methods 
+			
 		
 		
 	}
