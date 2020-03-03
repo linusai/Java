@@ -9,7 +9,7 @@ public class CW3MarAbsIn extends CW3MarAbstraction{
 		System.out.println("Print the Child Class Conversion gal to lts :" +galtolts );
 	}
 	public static void main (String[] args) { 
-		CW3MarAbsIn n= new CW3MarAbsIn ();
+		CW3MarAbsIn n= new CW3MarAbsIn (); //Create object when your calling no Static method to Static 
 		n.noabsmethod();
 		n.abmethod();
 		
