@@ -14,7 +14,7 @@ public abstract class CW3MarAbstraction {
 		
 	}
 	public abstract void abmethod (); //Abstract method is called in another class 
-
+	// In abstraction method System.out.Println will not work. 
 	//Scanner dataentry = new Scanner (System.in); // Syntax to use and call the user input
 	double gal =10;
 	double lts = 3.784;
