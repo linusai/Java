@@ -7,6 +7,7 @@ package GITPackage;
 // interface to interface use the keyword extends 
 
 public class CW4MarInterfaceExtends implements CW4MarInterface { // Syntax to call the interface 
+	//public class CW4MarInterfaceExtends implements CW4MarInterface ,CW4Mar2Interface //Interfaces can be called by this syntax also 
 
 	
 	@Override
