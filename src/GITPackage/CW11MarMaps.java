@@ -15,7 +15,7 @@ public class CW11MarMaps {
 		Map<Integer,String> m = new HashMap <Integer,String> ();
 		m.put(10,"Selenium");
 		System.out.println("Map Testing :" +m.get(20));
-		System.out.prinrtln (m);
+		System.out.println (m);
 		
 		
 		;
