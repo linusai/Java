@@ -16,7 +16,7 @@ public class CW17MarLocElementChbox {
 		WebElement Radiobutton = driver.findElement(By.id("male"));
 		if (Radiobutton.isDisplayed()) {
 			if(Radiobutton.isEnabled()) {
-			if(!Radiobutton.isSelected()) { // This statement is a not null if we use ! mark 
+			if(!Radiobutton.isSelected()) { // This statement is a not null if we use ! mark False condition
 				Radiobutton.click();
 			}
 			}
